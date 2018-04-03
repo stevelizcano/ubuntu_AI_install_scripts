@@ -11,6 +11,6 @@ sudo apt-get -y install r-base
 
 
 #Rstudio
-sudo apt-get install gdebi-core
+sudo apt-get -y install gdebi-core
 wget https://download2.rstudio.org/rstudio-server-1.1.442-amd64.deb
-sudo gdebi rstudio-server-1.1.442-amd64.deb
+yes | sudo gdebi rstudio-server-1.1.442-amd64.deb
