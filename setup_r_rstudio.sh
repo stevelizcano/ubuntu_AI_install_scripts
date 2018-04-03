@@ -1,7 +1,11 @@
 #Sets up R and R Studio
 
-#R
+#required for Tidyverse
+sudo apt-get -y install libxml2-dev
+sudo apt-get -y install libssl-dev
+sudo apt-get -y install libcurl4-openssl-dev
 
+#R
 sudo add-apt-repository "deb http://cran.rstudio.com/bin/linux/ubuntu $(lsb_release -sc)/"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 sudo add-apt-repository ppa:marutter/rdev
